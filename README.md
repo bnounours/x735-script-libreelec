@@ -1,6 +1,6 @@
 # x735-script-openelec
 
-This repo is a fro from https://github.com/geekworm-com/x735-script
+This repo is a fork from https://github.com/geekworm-com/x735-script
 The idea is to adapt it to make it work on openelec distrib with Kodi
 
 # Install
