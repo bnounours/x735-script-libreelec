@@ -32,7 +32,7 @@ mkdir x735
 Download the repository:
 
 ```bash
-wget https://github.com/bnounours/x735-script-openelec/archive/refs/heads/main.zip -P /storage/x735
+wget https://github.com/bnounours/x735-script-libreelec/archive/refs/heads/main.zip -P /storage/x735
 ```
 
 Unzip the archive and install
