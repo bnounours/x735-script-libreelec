@@ -56,6 +56,15 @@ Go to /storage/x735 and run script uninstall
 /storage/x735/uninstall.sh
 ```
 
+# Usage
+
+You can verify the safety switch through the onboard switch, press and hold the switch for 3 seconds, then the blue LED will flash slowly and the shutdown is going then all LEDs will be off until the device is completely powered off.
+
+* press on-board button switch 1-2 seconds to reboot
+* press button switch 3 seconds to safe shutdown,
+* press 7-8 seconds to force shutdown.
+
+
 
 # Info from the original doc
 
