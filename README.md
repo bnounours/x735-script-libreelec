@@ -39,7 +39,7 @@ Unzip the archive and install
 ```bash
 cd /storage/x735
 unzip main.zip
-cd x735-script-openelec-main/
+cd x735-script-libreelec-main/
 chmod +x *.sh
 ./install.sh
 ```
