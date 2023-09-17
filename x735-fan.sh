@@ -181,7 +181,10 @@ function __main__ {
     TEMP="$(get_temp)"
     DUTY_CYCLE=0
 
-    printf -v CUR_TEMP %0.0f "$TEMP" # Convert float to int
+    # This line doesn't work on openelec (don't know why)
+    #printf -v CUR_TEMP %0.0f "$TEMP" # Convert float to int
+    CUR_TEMP=$(printf %0.0f "$TEMP") # Convert float to int
+    
     if [ "$CUR_TEMP" -ge 75 ]; then
       DUTY_CYCLE=100
     elif [ "$CUR_TEMP" -ge 70 ]; then
